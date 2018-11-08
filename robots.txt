@@ -1,0 +1,3 @@
+Sitemap: http://rozross.ca/sitemap.xml
+
+User-Agent: *
