@@ -12,6 +12,38 @@ h3 {
   font-weight: 400;
 }
 
+.white-link {
+  transition: all .3s ease;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  color: #fff;
+}
+
+.white-link:hover,
+.white-link:focus {
+  border-bottom: 2px solid #fff;
+}
+
+/* Header start */
+
+nav {
+  background-color: #434343;
+}
+
+.nav-logo i {
+  transition: all .3s ease;
+}
+
+.nav-logo:hover i {
+  transform: scale(.9);
+}
+
+.nav-logo:focus i {
+  transform: scale(.9);
+}
+
+/* Header end */
+
 /* Footer start */
 
 footer {
@@ -24,22 +56,15 @@ textarea {
   border-color: #138D8F;
 }
 
-.footer-link {
-  transition: all .3s ease;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  color: #fff;
-}
-
-.footer-link:hover,
-.footerlink:focus {
-  border-bottom: 2px solid #fff;
-}
-
 .footer-icon-link {
   transition: all .3s ease;
   text-decoration: none;
   color: #fff;
+}
+
+.footer-social-link {
+  transition: all .3s ease;
+  border-bottom: 2px solid transparent;
 }
 
 .footer-icon-link:hover .footer-social-link {
@@ -48,12 +73,6 @@ textarea {
 
 .footer-icon-link:focus .footer-social-link {
   border-bottom: 2px solid #fff;
-}
-
-.footer-social-link {
-  transition: all .3s ease;
-
-  border-bottom: 2px solid transparent;
 }
 
 .dark1-bg {
