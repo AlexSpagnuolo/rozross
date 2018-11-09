@@ -2,18 +2,18 @@
 <urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://rozross.ca</loc>
+    <loc>http://rozross.com</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>http://rozross.ca/about</loc>
+    <loc>http://rozross.com/about</loc>
   </url>
 
   <url>
-    <loc>http://rozross.ca/services</loc>
+    <loc>http://rozross.com/services</loc>
   </url>
 
   <url>
-    <loc>http://rozross.ca/blog</loc>
+    <loc>http://rozross.com/blog</loc>
   </url>
