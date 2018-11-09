@@ -1,3 +1,6 @@
-Sitemap: http://rozross.ca/sitemap.xml
+# www.rozross.com
+
+Sitemap: http://rozross.com/sitemap.xml
 
 User-Agent: *
+Disallow:
