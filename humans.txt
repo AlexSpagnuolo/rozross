@@ -1,3 +1,5 @@
+#humanstxt.org
+
 # TEAM
 
 Designer & Developer: Alex Spagnuolo
@@ -11,3 +13,19 @@ Location: Ottawa, Canada
 Designer: David Preseault
 Site: http://preseault.ca/
 Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+- "Gridifier" by Thomas J Bradley
+  Code released under the UNLICENSE
+  https://gridifier.web-dev.tools/
+
+- "Modulifier" by Thomas J Bradley
+  Code released under the UNLICENSE
+  https://modulifier.web-dev.tools/
+
+- "Typografier" by Thomas J Bradley
+  Code released under the UNLICENSE
+  https://typografier.web-dev.tools/
