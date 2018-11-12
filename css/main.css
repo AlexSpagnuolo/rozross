@@ -24,6 +24,19 @@ h3 {
   border-bottom: 2px solid #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  transition: all .3s ease;
+}
+
+.grey-bg {
+  background-color: #F4F4F4;
+}
+
 /* Header start */
 
 nav {
@@ -102,3 +115,37 @@ textarea {
 }
 
 /* Footer end */
+
+/* Home start */
+
+  .hook {
+    top: 65%;
+    left: 10%;
+    z-index: 1;
+  }
+
+  .cover-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .text-link {
+    color: #138D8F;
+    text-decoration: none;
+  }
+
+  .text-link-icon {
+    transition: all .3s ease;
+  }
+
+  .text-link:hover .text-link-icon {
+    transform: translateX(.5em);
+  }
+
+  .text-link:focus .text-link-icon {
+    transform: translateX(.5em);
+  }
+
+/* Home end */
