@@ -118,34 +118,44 @@ textarea {
 
 /* Home start */
 
-  .hook {
-    top: 65%;
-    left: 10%;
-    z-index: 1;
-  }
+.hook {
+  top: 65%;
+  left: 10%;
+  z-index: 1;
+}
 
-  .cover-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
+.cover-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
-  .text-link {
-    color: #138D8F;
-    text-decoration: none;
-  }
+.text-link {
+  color: #138D8F;
+  text-decoration: none;
+}
 
-  .text-link-icon {
-    transition: all .3s ease;
-  }
+.text-link-icon {
+  transition: all .3s ease;
+}
 
-  .text-link:hover .text-link-icon {
-    transform: translateX(.5em);
-  }
+.text-link:hover .text-link-icon {
+  transform: translateX(.5em);
+}
 
-  .text-link:focus .text-link-icon {
-    transform: translateX(.5em);
-  }
+.text-link:focus .text-link-icon {
+  transform: translateX(.5em);
+}
 
 /* Home end */
+
+/* About start */
+
+.about-header {
+  top: 15%;
+  left: 10%;
+  z-index: 1;
+}
+
+/* About end */
