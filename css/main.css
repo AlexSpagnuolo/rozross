@@ -2,16 +2,6 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Oswald", sans-serif;
-}
-
-h3 {
-  font-weight: 400;
-}
-
 .white-link {
   transition: all .3s ease;
   text-decoration: none;
@@ -33,6 +23,11 @@ button {
   transition: all .3s ease;
 }
 
+button:hover,
+button:focus {
+  transform: scale(.9);
+}
+
 .grey-bg {
   background-color: #F4F4F4;
 }
@@ -40,7 +35,7 @@ button {
 /* Header start */
 
 nav {
-  background-color: #434343;
+  background-color: #138D8F;
 }
 
 .nav-logo i {
@@ -159,3 +154,22 @@ textarea {
 }
 
 /* About end */
+
+
+/* Services start */
+
+.services-button,
+.services-icon {
+  transition: all .3s ease;
+}
+
+.services-button:hover {
+  transform: scale(.9);
+}
+
+.services-button:focus {
+  transform: scale(.9);
+}
+
+
+/* Services end */
