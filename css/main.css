@@ -66,30 +66,21 @@ button {
   background-color: #F4F4F4;
 }
 
-.dark-bg {
+.dark-bg-gradient {
   background-image: radial-gradient(circle at 0, #2E7A73 90%, #22605B 90%);
+  color: #fff;
+}
+
+.dark-bg {
+  background-color: #2E7A73;
   color: #fff;
 }
 
 /* Header start */
 
 nav {
-  background-image: radial-gradient(circle at 0, #2E7A73 30%, #138D8F 30%);
+  background-image: radial-gradient(circle at -50%, #2E7A73 50%, #138D8F 50%);
   border-top: 2px #EF7F57 solid;
-}
-
-@media only screen and (min-width: 38em) {
-
-  nav {
-    background-image: radial-gradient(circle at -50%, #2E7A73 40%, #138D8F 40%);
-  }
-}
-
-@media only screen and (min-width: 60em) {
-
-  nav {
-    background-image: radial-gradient(circle at 0%, #2E7A73 35%, #138D8F 35%);
-  }
 }
 
 .nav-logo i {
@@ -170,12 +161,6 @@ textarea {
   padding-right: 0;
 }
 
-@media only screen and (min-width: 38em) {
-  .name-input {
-    padding-right: .5rem;
-  }
-}
-
 /* Footer end */
 
 /* Home start */
@@ -217,7 +202,7 @@ textarea {
 
 .featured-blog-card:hover,
 .featured-blog-card:focus {
-  transform: scale(.95);
+  transform: scale(.98);
 }
 
 .featured-blog-title {
@@ -230,29 +215,10 @@ textarea {
   text-overflow: ellipsis;
 }
 
-@media only screen and (min-width: 25em) {
-
-  .featured-blog-image {
-    border-radius: 10px 10px 0 0;
-  }
-}
-
-
-@media only screen and (min-width: 38em) {
-
-  .featured-blog-image {
-    border-radius: 10px;
-  }
-}
 /* Home end */
 
 /* About start */
 
-.about-header {
-  top: 15%;
-  left: 10%;
-  z-index: 1;
-}
 
 /* About end */
 
@@ -271,3 +237,44 @@ textarea {
 
 
 /* Services end */
+
+/* Media Queries start */
+
+@media only screen and (min-width: 25em) {
+
+  .featured-blog-image {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav {
+    background-image: radial-gradient(circle at -50%, #2E7A73 50%, #138D8F 50%);
+  }
+
+  .name-input {
+    padding-right: .5rem;
+  }
+
+  .featured-blog-image {
+    border-radius: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    background-image: radial-gradient(circle at -40%, #2E7A73 50%, #138D8F 50%);
+  }
+}
+
+@media only screen and (min-width: 120em) {
+
+  nav {
+    background-image: radial-gradient(circle at -20%, #2E7A73 50%, #138D8F 50%);
+  }
+}
+
+/* Media Queries end */
