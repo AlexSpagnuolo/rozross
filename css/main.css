@@ -79,20 +79,15 @@ button {
 /* Header start */
 
 nav {
-  background-image: radial-gradient(circle at -50%, #2E7A73 50%, #138D8F 50%);
+  background-color: #2E7A73;
   border-top: 2px #EF7F57 solid;
 }
 
-.nav-logo i {
+.nav-logo {
   transition: all .3s ease;
-}
-
-.nav-logo:hover i {
-  transform: scale(.9);
-}
-
-.nav-logo:focus i {
-  transform: scale(.9);
+  max-width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-link {
@@ -103,9 +98,20 @@ nav {
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: #2E7A73;
+  background-color: #22605B;
 }
 
+.current {
+  color: #fff;
+  background-color: #57B4B2;
+  transition: all .3s ease;
+  border-radius: 10px;
+}
+
+.current:hover,
+.current:focus {
+  background-color: #2E7A73;
+}
 
 /* Header end */
 
@@ -195,6 +201,12 @@ textarea {
   transform: translateX(.5em);
 }
 
+.featured-service {
+  max-width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .featured-blog-card {
   border-radius: 10px;
   transition: all .3s ease;
@@ -217,6 +229,7 @@ textarea {
 
 /* Home end */
 
+
 /* About start */
 
 
@@ -230,11 +243,14 @@ textarea {
   transition: all .3s ease;
 }
 
-.services-button:hover,
-.services-button:focus {
-  transform: scale(.9);
+.services-button {
+  border-radius: 10px;
 }
 
+.services-button:hover,
+.services-button:focus {
+  background-color: #F4F4F4;
+}
 
 /* Services end */
 
@@ -249,10 +265,6 @@ textarea {
 
 @media only screen and (min-width: 38em) {
 
-  nav {
-    background-image: radial-gradient(circle at -50%, #2E7A73 50%, #138D8F 50%);
-  }
-
   .name-input {
     padding-right: .5rem;
   }
@@ -265,16 +277,10 @@ textarea {
 
 @media only screen and (min-width: 60em) {
 
-  nav {
-    background-image: radial-gradient(circle at -40%, #2E7A73 50%, #138D8F 50%);
+  .nav-logo {
+    transform: translateX(-100%);
   }
-}
 
-@media only screen and (min-width: 120em) {
-
-  nav {
-    background-image: radial-gradient(circle at -20%, #2E7A73 50%, #138D8F 50%);
-  }
 }
 
 /* Media Queries end */
