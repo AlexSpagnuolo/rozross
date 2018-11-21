@@ -2,7 +2,7 @@
   <section class="dark1-bg">
     <div class="pad-t pad-b gutter wrapper">
       <h3 class="push-1-2 mega">Send me a message</h3>
-      <form class="grid" method="post" action="https://formspree.io/info@rozross.com" role="search">
+      <form class="grid" method="POST" action="https://formspree.io/info@rozross.com" role="search">
         <div class="unit xs-1 s-1 m-1-2 push-1-2 name-input">
           <label class="micro" for="name">Name</label>
           <input id="name" name="name" placeholder="Full name">
@@ -80,10 +80,11 @@
         <h3 class="push-1-2 mega">Contact</h3>
         <ul class="list-group push-0 micro">
           <li class="push-1-8">
-            <a class="white-link" href="mailto:info@rozross.com">info@rozross.com</a>
+            <a class="white-link" href="mailto:info@rozross.com" itemprop="email">info@rozross.com</a>
           </li>
-          <li class="push-1-8">Phone</li>
-          <li class="push-1-8">Address</li>
+          <li class="push-1-8">
+            <a class="white-link" href="tel:+16138508928" itemprop="telephone">+1 (613) 850-8928</a>
+          </li>
         </ul>
       </div>
     </div>
