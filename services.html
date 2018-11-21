@@ -1,14 +1,25 @@
 ---
 layout: default
+
 title: Services · Roz Ross
-description:
+description: All of Roz Ross' coaching services, opportunities and challenges.
+
+services-intro: Take a look at all the opportunities and challenges I have to offer. Let's start your transformation through applied intention.
+
+executive-coaching-intro: Let me provide a space to talk about your goals and plans. Together, we will work to determine the steps you will take to achieve them.
+100-day-journey-intro: So much can be accomplished in just 100 days. The duration will allow us to focus on something important to you.
+1000-day-journey-intro: If a lot can be accomplished in 100 days, just imagine what 1000 days can do. This series of smaller 100 day journeys will help you achieve your plans.
+emotional-intelligence-intro: EQ-i certified. Emotions help us learn new things, understand others, and push us to take action.
+spice-intro: SPICE is an acronym to remember key contributors to happiness and a well-balanced life. <span class="bold">S</span>piritual, <span class="bold">P</span>hysical, <span class="bold">I</span>ntellectual, <span class="bold">C</span>reative, <span class="bold">E</span>motional.
+motivational-speaking-intro: I give motivational speeches on a variety of topics including resiliency and emotional intelligence.
+
 ---
 
 <section class="push-2 pad-b-2">
   <div class="relative">
-    <div class="absolute pin-c wrapper gutter">
+    <div class="absolute pin-c max-length gutter">
       <h1 class="push-1-4 zetta">Services</h1>
-      <strong>Nullam malesuada mi non est consequat eleifend.</strong>
+      <strong>{{page.services-intro}}</strong>
     </div>
     <img class="img-flex" src="https://via.placeholder.com/100x20" alt="" itemprop="image">
   </div>
@@ -16,166 +27,196 @@ description:
 
 <section class="push-2">
   <div class="wrapper grid gutter-1-2">
-    <a href="#executive-coaching" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
+    <a href="{{site.baseurl}}/executive-coaching/" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
       <div class="push-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/executive-coaching.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">Executive Coaching</h3>
       </div>
     </a>
 
-    <a href="#100-day-journey" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
-      <div class="push-1-2">
+    <a href="{{site.baseurl}}/100-day-journey/" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
+      <div class="pad-b-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/100-day-journey.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">100 Day Journey</h3>
       </div>
     </a>
 
-    <a href="#1000-day-journey" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
+    <a href="{{site.baseurl}}/1000-day-journey/" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
       <div class="push-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/1000-day-journey.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">1000 Day Journey</h3>
       </div>
     </a>
 
-    <a href="#emotional-intelligence" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
+    <a href="{{site.baseurl}}/emotional-intelligence/" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
       <div class="push-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/emotional-intelligence.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">Emotional Intelligence Reports & Coaching</h3>
       </div>
     </a>
 
-    <a href="#spice" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
+    <a href="{{site.baseurl}}/spice-resiliency-program" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
       <div class="push-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/spice.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">SPICE Resiliency Program</h3>
       </div>
     </a>
 
-    <a href="#motivational-speaking" class="unit xs-1-2 s-1-2 m-1-3 gutter-1-2 text-center services-button push-2" itemprop="url">
+    <a href="{{site.baseurl}}/motivational-speaking/" class="unit xs-1-2 s-1-2 m-1-3 island text-center services-button push-2" itemprop="url">
       <div class="push-1-2">
         <i class="icon i-64 services-icon">
           <img class="img-flex" src="{{site.baseurl}}/images/icons/motivational-speaking.svg">
         </i>
       </div>
-      <div class="push-1-2">
+      <div>
         <h3 class="push-0 giga">Motivational Speaking</h3>
       </div>
     </a>
   </div>
 </section>
 
-<section id="executive-coaching" class="grey-bg pad-t-2 pad-b-2">
+<section class="grey-bg pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
         <img class="img-flex" src="{{site.baseurl}}/images/icons/executive-coaching.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>Executive Coaching</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">Executive Coaching</h2
+      <p class="max-length milli">{{page.executive-coaching-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/executive-coaching/" itemprop="url">
+          <button class="ghost-btn">Get personalized coaching</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="100-day-journey" class="pad-t-2 pad-b-2">
+<section class="pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
         <img class="img-flex" src="{{site.baseurl}}/images/icons/100-day-journey.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>100 Day Journey</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">100 Day Journey</h2
+      <p class="max-length milli">{{page.100-day-journey-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/100-day-journey/" itemprop="url">
+          <button class="ghost-btn">Start journey</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="1000-day-journey" class="pad-t-2 pad-b-2 grey-bg">
+<section class="grey-bg pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
         <img class="img-flex" src="{{site.baseurl}}/images/icons/1000-day-journey.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>1000 Day Journey</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">1000 Day Journey</h2
+      <p class="max-length milli">{{page.1000-day-journey-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/1000-day-journey/" itemprop="url">
+          <button class="ghost-btn">Explore now</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="emotional-intelligence" class="pad-t-2 pad-b-2">
+<section class="pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
         <img class="img-flex" src="{{site.baseurl}}/images/icons/emotional-intelligence.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>Emotional Intelligence Reports & Coaching</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">Emotional Intelligence Reports & Coaching</h2
+      <p class="max-length milli">{{page.emotional-intelligence-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/emotional-intelligence/" itemprop="url">
+          <button class="ghost-btn">Know yourself more</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="space" class="pad-t-2 pad-b-2 grey-bg">
+<section class="grey-bg pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
-        <img class="img-flex" src="{{site.baseurl}}/images/icons/space.svg" alt="">
+        <img class="img-flex" src="{{site.baseurl}}/images/icons/spice.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>SPICE Resiliency Program</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">SPICE Resiliency Program</h2
+      <p class="max-length milli">{{page.spice-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/spice-resiliency-program/" itemprop="url">
+          <button class="ghost-btn">Get resilient</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="motivational-speaking" class="pad-t-2 pad-b-2">
+<section class="pad-t-2 pad-b-2">
   <div class="grid wrapper gutter">
-    <a href="#top" class="unit xs-1-4 text-center">
+    <div class="unit xs-1-4 text-center">
       <i class="icon i-96 footer-icon">
         <img class="img-flex" src="{{site.baseurl}}/images/icons/motivational-speaking.svg" alt="">
       </i>
-    </a>
+    </div>
 
     <div class="unit xs-3-4">
-      <h2>Motivational Speaking</h2
-      <p class="max-length milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus.</p>
-      <img class="img-flex" src="https://via.placeholder.com/300x150">
+      <h2 class="push-1-2">Motivational Speaking</h2
+      <p class="max-length milli">{{page.motivational-speaking-intro}}</p>
+
+      <div>
+        <a href="{{site.baseurl}}/motivational-speaking/" itemprop="url">
+          <button class="ghost-btn">See more</button>
+        </a>
+      </div>
     </div>
   </div>
 </section>
