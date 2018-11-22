@@ -28,6 +28,14 @@ img,
   text-transform: uppercase;
 }
 
+.text-shadow {
+  text-shadow: 1px 1px 5px #000;
+}
+
+.coral {
+  color: #EF7F57;
+}
+
 .white-link {
   transition: all .3s ease;
   text-decoration: none;
@@ -77,13 +85,18 @@ button {
   background-color: #F4F4F4;
 }
 
+.dark-bg {
+  background-color: #2E7A73;
+  color: #fff;
+}
+
 .dark-bg-gradient {
   background-image: radial-gradient(circle at 0, #2E7A73 90%, #22605B 90%);
   color: #fff;
 }
 
-.dark-bg {
-  background-color: #2E7A73;
+.dark-bg-gradient-1-2 {
+  background-image: linear-gradient(-10deg, #2E7A73 45%, #22605B 45%);
   color: #fff;
 }
 
@@ -279,11 +292,15 @@ textarea {
 
 /* Services end */
 
+/* Blog start */
+
+/* Blog end */
+
 /* Media Queries start */
 
 @media only screen and (min-width: 25em) {
 
-  .featured-blog-image {
+  .-image {
     border-radius: 10px 10px 0 0;
   }
 }
@@ -298,12 +315,24 @@ textarea {
     border-radius: 10px;
   }
 
+  .nav-button {
+    margin-bottom: .65rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .nav-logo {
     transform: translateX(-100%);
+  }
+
+  .dark-bg-gradient-1-2 {
+    background-image: linear-gradient(100deg, #2E7A73 50%, #22605B 50%);
+  }
+
+  .about-testimonial-2 {
+    margin-top: 20rem;
   }
 
 }
