@@ -76,6 +76,11 @@ button {
   color: #fff;
 }
 
+.banner-text {
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
 /* Header start */
 
 nav {
@@ -103,14 +108,14 @@ nav {
 
 .current {
   color: #fff;
-  background-color: #57B4B2;
+  border: 3px solid #57B4B2;
   transition: all .3s ease;
   border-radius: 10px;
 }
 
 .current:hover,
 .current:focus {
-  background-color: #2E7A73;
+  background-color: #57B4B2;
 }
 
 /* Header end */
@@ -232,6 +237,15 @@ textarea {
 
 /* About start */
 
+.black-link {
+  transition: all .3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.black-link:hover,
+.black-link:focus {
+  border-bottom: 2px solid #138D8F;
+}
 
 /* About end */
 
