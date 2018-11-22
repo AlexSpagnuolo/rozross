@@ -4,6 +4,16 @@ layout: default
 title: About · Roz Ross
 description: Everything you need to know about Roz Ross as a professional and a person.
 
+about-intro: Roz is a Certified Executive Coach who specializes in enhancing executives' performance by strengthening their competence in goal-setting, decision-making, change management and leadership.
+
+about-1: She is an executive in the federal public service of Canada where she has specialized in change management and stakeholder engagement for major government IT projects for much of her career.
+about-2: As a Director of the Cognitive Centre of Canada, she co-developed an internationally-accredited social competence training program which teaches interpersonal problem-solving, negotiation, creative thinking and critical reasoning. More than ninety-thousand individuals in twenty-four countries have been trained in this program. It has been translated into fourteen languages.
+about-3: Roz has conducted training on social competence both in Canada and internationally. She is co-author of three books; <span class="italic">Reasoning & Rehabilitation — A Handbook for Cognitive Skills Training (1986)</span>; <span class="italic">Cognitive Skills - A Training Manual for Living Skills (1988)</span>; and <span class="italic">Thinking Straight (1995)</span>.
+about-4: As an accredited Emotional Intelligence Coach and Mentor, Roz has frequently served as a motivational speaker for government agencies.
+
+mission: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+vision: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+
 client-1-testimonial: Roz coached me while I was undertaking my first acting executive role. It was a stressful time and she helped me through it by asking questions that allowed me to figure out what I really wanted to do with my career. Not only did her coaching help me professionally but also personally. Through our regular sessions I came out with tools and techniques to be more mindful and self-aware. I truly feel that without Roz's coaching I wouldn't be where I am today and I highly recommend her services!
 client-1-name: Abbey
 
@@ -11,24 +21,36 @@ client-2-testimonial: There are many ways I used Roz's coaching services, be it 
 client-2-name: Zahra
 ---
 
-<section class="push-2 pad-b-2">
+<section class="push-2 pad-b">
   <div class="relative">
-    <div class="absolute pin-c wrapper gutter">
-      <h1 class="push-1-4 zetta">Roz Ross</h1>
-      <strong>Nullam malesuada mi non est consequat eleifend.</strong>
+    <div class="embed embed-4by1">
+      <img class="embed-item" src="{{site.baseurl}}/images/about/about-cover.jpg/" alt="" itemprop="image" role="presentation">
     </div>
-    <img class="img-flex" src="https://via.placeholder.com/100x20" alt="" itemprop="image">
+    <div class="absolute pin-c max-length gutter banner-text">
+      <h1 class="push-1-4 zetta">Roz Ross</h1>
+      <strong>{{page.about-intro}}</strong>
+    </div>
   </div>
 </section>
 
-<section class="wrapper gutter-1-2 push-2 pad-b-2">
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-2-3 gutter-1-2 push">
-      <img class="img-flex" src="https://via.placeholder.com/100x50" alt="" itemprop="image">
-    </div>
-    <div class="unit xs-1 s-1 m-1-3 gutter-1-2">
-      <p class="push-0 milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In sed faucibus. Nullam malesuada mi non est consequat eleifend. Curabitur quis</p>
-    </div>
+<section class="gutter-1-2 media wrapper pad-b-2 push-2">
+  <div class="gutter-1-2 media-img">
+    <figure class="push-1-2">
+      <img class="img-flex push-1-4" src="{{site.baseurl}}/images/about/roz-ross.png/" alt="Roslynn Ross in Amsterdam" itemprop="image">
+      <figcaption class="aside micro italic">Roz visiting Amsterdam, 2018</figcaption>
+    </figure>
+  </div>
+  <div class="gutter-1-2 media-img">
+    <figure class="push-1-2">
+      <img class="img-flex push-1-4" src="{{site.baseurl}}/images/about/morroco.png/" alt="Roslynn Ross in Amsterdam" itemprop="image">
+      <figcaption class="aside micro italic">Leading the journey in Morroco, 2018</figcaption>
+    </figure>
+  </div>
+  <div class="gutter-1-2 media-body">
+    <p class="milli">{{page.about-1}}</p>
+    <p class="milli">{{page.about-2}}</p>
+    <p class="milli">{{page.about-3}}</p>
+    <p class="milli push-0">{{page.about-4}}</p>
   </div>
 </section>
 
@@ -36,11 +58,11 @@ client-2-name: Zahra
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
       <h2 class="push-1-4">My Mission</h2>
-      <p class="milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.</p>
+      <p class="milli">{{page.mission}}</p>
     </div>
     <div class="unit xs-1 s-1 m-1-2 gutter-1-2">
       <h2 class="push-1-4">My Vision</h2>
-      <p class="milli">Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.</p>
+      <p class="milli">{{page.vision}}</p>
     </div>
   </div>
 </section>
@@ -70,65 +92,73 @@ client-2-name: Zahra
 
 <section>
   <div class="gutter-1-2 wrapper pad-b-2">
-    <h2 class="gutter-1-2">Certifications</h2>
+    <h2 class="gutter-1-2">Certifications & Associations</h2>
     <div class="grid">
       <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-2">
         <i class="icon i-64 footer-icon">
-          <img class="img-flex" src="https://via.placeholder.com/100" alt="">
+          <img class="img-flex" src="{{site.baseurl}}/images/icons/rru.svg/" alt="Royal Roads University">
         </i>
-        <span class="icon-label milli">Nullam malesuada mi non est consequat eleifend.</span>
+        <span class="icon-label milli">
+          <a class="black-link" href="http://www.royalroads.ca/prospective-students/graduate-certificate-executive-coaching" itemprop="url" rel="external">Royal Roads University, Certified Executive Coach</a>
+        </span>
       </div>
 
       <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-2">
         <i class="icon i-64 footer-icon">
-          <img class="img-flex" src="https://via.placeholder.com/100" alt="">
+          <img class="img-flex" src="{{site.baseurl}}/images/icons/ccc.svg/" alt="Cognitive Centre of Canada">
         </i>
-        <span class="icon-label milli">Nullam malesuada mi non est consequat eleifend.</span>
+        <span class="icon-label milli">
+          <a class="black-link" href="https://www.cognitivecentre.ca/" itemprop="url" rel="external">Cognitive Centre of Canada</a>
+        </span>
       </div>
 
       <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-2">
         <i class="icon i-64 footer-icon">
-          <img class="img-flex" src="https://via.placeholder.com/100" alt="">
+          <img class="img-flex" src="{{site.baseurl}}/images/icons/icf.svg/" alt="International Coach Federation">
         </i>
-        <span class="icon-label milli">Nullam malesuada mi non est consequat eleifend.</span>
+        <span class="icon-label milli">
+          <a class="black-link" href="https://coachfederation.org/" itemprop="url" rel="external">Member of the International Coach Federation</a>
+        </span>
       </div>
 
       <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-2">
         <i class="icon i-64 footer-icon">
-          <img class="img-flex" src="https://via.placeholder.com/100" alt="">
+          <img class="img-flex" src="{{site.baseurl}}/images/icons/eqi.svg/" alt="EQ-i 2.0">
         </i>
-        <span class="icon-label milli">Nullam malesuada mi non est consequat eleifend.</span>
+        <span class="icon-label milli">
+          <a class="black-link" href="https://www.mhs.com/MHS-Talent?prodname=eq2" itemprop="url" rel="external">EQ-1 2.0/EQ 360 Certification</a>
+        </span>
       </div>
     </div>
   </div>
 </section>
 
-<section class="pad-b-2 pad-t-2 dark-bg">
+<section class="pad-b-2 pad-t-2 dark-bg-gradient-1-2">
   <div class="gutter-1-2 wrapper">
-    <h2 class="gutter-1-2">What people are saying about me</h2>
+    <h2 class="gutter-1-2 text-shadow">What people are saying about me</h2>
     <div class="grid">
 
-      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 pad-t pad-b text-center">
-        <div class="push-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 pad-t pad-b-2">
+        <div class="push text-center">
           <i class="icon i-64">
             <img class="img-flex" src="{{site.baseurl}}/images/icons/testimonials.svg/">
           </i>
         </div>
         <div class="max-length">
-          <p class="push italic">"{{page.client-1-testimonial}}"</p>
-          <p class="push-0">–{{page.client-1-name}}</p>
+          <p class="push text-shadow"><span class="hang-punc exa bold coral">“</span>{{page.client-1-testimonial}}"</p>
+          <p class="push-0 italic text-shadow"><span class="hang-punc">–</span>{{page.client-1-name}}</p>
         </div>
       </div>
 
-      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 pad-t pad-b text-center">
-        <div class="push-2">
+      <div class="unit xs-1 s-1 m-1 l-1-2 gutter-1-2 pad-t pad-b about-testimonial-2">
+        <div class="push text-center">
           <i class="icon i-64">
             <img class="img-flex" src="{{site.baseurl}}/images/icons/testimonials.svg/">
           </i>
         </div>
         <div class="max-length">
-          <p class="push italic">"{{page.client-2-testimonial}}"</p>
-          <p class="push-0">–{{page.client-2-name}}</p>
+          <p class="push text-shadow"><span class="hang-punc exa bold coral">“</span>{{page.client-2-testimonial}}"</p>
+          <p class="push-0 italic text-shadow"><span class="hang-punc">–</span>{{page.client-2-name}}</p>
         </div>
       </div>
     </div>
