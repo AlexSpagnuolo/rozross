@@ -6,30 +6,6 @@ description: All of Roz Ross' blog posts, news and updates.
 
 blog-intro: Stay updated on my blog posts, news and updates.
 
-featured-blog-image: https://via.placeholder.com/100x50
-featured-blog-title: Blog post 1
-featured-blog-date: 2018-10-14
-featured-blog-date-display: Nov 14 2018
-featured-blog-body: Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In
-
-blog-1-image: https://via.placeholder.com/100x50
-blog-1-title: Blog post 1
-blog-1-date: 2018-10-14
-blog-1-date-display: Nov 14 2018
-blog-1-body: Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In
-
-blog-2-image: https://via.placeholder.com/100x50
-blog-2-title: Blog post 2
-blog-2-date: 2018-10-15
-blog-2-date-display: Nov 15 2018
-blog-2-body: Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In
-
-blog-3-image: https://via.placeholder.com/100x50
-blog-3-title: Blog post 3
-blog-3-date: 2018-10-15
-blog-3-date-display: Nov 15 2018
-blog-3-body: Nullam malesuada mi non est consequat eleifend. Curabitur quis ex velit. Duis a pulvinar libero. Cras et molestie tortor.  In laoreet venenatis mi. In
-
 ---
 
 <section class="push-2 pad-b">
@@ -50,44 +26,13 @@ blog-3-body: Nullam malesuada mi non est consequat eleifend. Curabitur quis ex v
     <div>
       <h2>Posts</h2>
     </div>
-    <a href="{{site.baseurl}}/blog/" class="grid grid-middle push grey-bg featured-blog-card" itemprop="url">
-      <div class="unit xs-1 s-2 m-1-3">
-        <img class="img-flex featured-blog-image" src="{{page.blog-1-image}}" alt="" itemprop="image">
-      </div>
-      <div class="unit xs-1 s-1 m-2-3 gutter">
-        <div class="grid pad-t pad-b-1-2 featured-blog-top">
-          <h3 class="unit xs-1-2 push-0 giga bold featured-blog-title">{{page.blog-1-title}}</h3>
-          <p class="unit xs-1-2 push-0 text-right"><time datetime="{{page.blog-1-date}}">{{page.blog-1-date-display}}</time></p>
-        </div>
-        <p class="milli push featured-blog-body">{{page.blog-1-body}}</p>
-      </div>
-    </a>
 
-    <a href="{{site.baseurl}}/blog/" class="grid grid-middle push grey-bg featured-blog-card" itemprop="url">
-      <div class="unit xs-1 s-2 m-1-3">
-        <img class="img-flex featured-blog-image" src="{{page.blog-2-image}}" alt="" itemprop="image">
-      </div>
-      <div class="unit xs-1 s-1 m-2-3 gutter">
-        <div class="grid pad-t pad-b-1-2 featured-blog-top">
-          <h3 class="unit xs-1-2 push-0 giga bold featured-blog-title">{{page.blog-2-title}}</h3>
-          <p class="unit xs-1-2 push-0 text-right"><time datetime="{{page.blog-2-date}}">{{page.blog-2-date-display}}</time></p>
-        </div>
-        <p class="milli push featured-blog-body">{{page.blog-2-body}}</p>
-      </div>
-    </a>
+    {% for post in site.posts %}
+    <article class="">
+      {% include patterns/post.html data=post %}
+    </article>
+    {% endfor %}
 
-    <a href="{{site.baseurl}}/blog/" class="grid grid-middle push grey-bg featured-blog-card" itemprop="url">
-      <div class="unit xs-1 s-2 m-1-3">
-        <img class="img-flex featured-blog-image" src="{{page.blog-3-image}}" alt="" itemprop="image">
-      </div>
-      <div class="unit xs-1 s-1 m-2-3 gutter">
-        <div class="grid pad-t pad-b-1-2 featured-blog-top">
-          <h3 class="unit xs-1-2 push-0 giga bold featured-blog-title">{{page.blog-3-title}}</h3>
-          <p class="unit xs-1-2 push-0 text-right"><time datetime="{{page.blog-3-date}}">{{page.blog-3-date-display}}</time></p>
-        </div>
-        <p class="milli push featured-blog-body">{{page.blog-3-body}}</p>
-      </div>
-    </a>
   </div>
 
   <div class="unit xs-1 s-1 m-1-4 gutter">
