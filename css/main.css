@@ -221,12 +221,14 @@ textarea {
   width: 60%;
 }
 
-.text-link {
+.text-link,
+.back-link {
   color: #138D8F;
   text-decoration: none;
 }
 
-.text-link-icon {
+.text-link-icon,
+.back-link-icon {
   transition: all .3s ease;
 }
 
@@ -236,6 +238,14 @@ textarea {
 
 .text-link:focus .text-link-icon {
   transform: translateX(.5em);
+}
+
+.back-link:hover .back-link-icon {
+  transform: translateX(-.5em);
+}
+
+.back-link:focus .back-link-icon {
+  transform: translateX(-.5em);
 }
 
 .featured-service {
