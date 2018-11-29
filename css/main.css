@@ -244,6 +244,10 @@ textarea {
   margin-right: auto;
 }
 
+.featured-blog-image {
+  max-height: 10rem;
+}
+
 .featured-blog-card {
   border-radius: 10px;
   transition: all .3s ease;
