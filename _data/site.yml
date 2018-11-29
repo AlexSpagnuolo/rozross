@@ -1,3 +1,5 @@
+copyright: © 2018 Roz Ross. All rights reserved.
+
 contact:
   tel: "+16138508928"
   tel_display: "+1 (613) 850-8928"
@@ -7,3 +9,7 @@ location:
   map: "https://maps.google.ca/?q=Ottawa,+ON"
   locality: "Ottawa"
   region: "ON"
+
+home-page:
+  hook: "Working together to engage your potential"
+  intro: "Welcome. I am Roz Ross, here to challenge you to create a future that inspires you. Based in Ottawa, Ontario and vested with experience and certifications."
