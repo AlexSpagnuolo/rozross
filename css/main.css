@@ -100,9 +100,17 @@ button {
   color: #fff;
 }
 
+.banner {
+  min-height: 10rem;
+}
+
 .banner-text {
   color: #fff;
   text-shadow: 2px 2px 5px #000;
+}
+
+.regular {
+  font-weight: 400;
 }
 
 /* Header start */
