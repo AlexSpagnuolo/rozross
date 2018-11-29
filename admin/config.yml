@@ -5,8 +5,8 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-  - name: "website-settings"
-    label: "Website settings"
+  - label: "Website settings"
+    name: "website-settings"
     files:
       - label: "Website settings"
         name: "site"
@@ -25,7 +25,6 @@ collections:
             - label: "Email"
               name: "email"
               widget: "string"
-
           - label: "Location"
             name: "location"
             widget: "object"
@@ -36,3 +35,29 @@ collections:
               - label: "Region"
                 name: "region"
                 widget: "string"
+
+  - label: "Blog posts"
+    name: "blog-posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "blog-post"
+      - label: "Blog button featured image"
+        name: "featuredimg"
+        widget: "image"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "string"
+      - label: "Introduction"
+        name: "introduction"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
