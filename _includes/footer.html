@@ -1,24 +1,24 @@
 <footer id="footer" role="contentinfo">
   <section class="dark1-bg">
     <div class="pad-t pad-b gutter wrapper">
-      <h3 class="push-1-2 mega">Send me a message</h3>
+      <h3 class="push mega">Send me a message</h3>
       <form class="grid" method="POST" action="https://formspree.io/info@rozross.com" role="search">
-        <div class="unit xs-1 s-1 m-1-2 push-1-2 name-input">
+        <div class="unit xs-1 s-1 m-1-2 push name-input">
           <label class="micro" for="name">Name</label>
           <input id="name" name="name" placeholder="Full name">
         </div>
 
-        <div class="unit xs-1 s-1 m-1-2 push-1-2">
+        <div class="unit xs-1 s-1 m-1-2 push">
           <label class="micro" for="email">Email</label>
           <input type="email" id="email" name="email" placeholder="email@me.com">
         </div>
 
-        <div class="unit xs-1 push">
+        <div class="unit xs-1 push-2">
           <label class="micro" for="message">Message</label>
           <textarea id="message" name="message" placeholder="What's on your mind?"></textarea>
         </div>
 
-        <div class="unit xs-1 text-center">
+        <div class="unit xs-1 text-center push">
           <button class="coral-btn" type="submit">Send</button>
         </div>
 
@@ -80,10 +80,13 @@
         <h3 class="push-1-2 mega">Contact</h3>
         <ul class="list-group push-0 micro">
           <li class="push-1-8">
-            <a class="white-link" href="mailto:info@rozross.com" itemprop="email">info@rozross.com</a>
+            <a class="white-link" href="mailto:{{site.data.site.email}}" itemprop="email">{{site.data.site.email}}</a>
           </li>
           <li class="push-1-8">
-            <a class="white-link" href="tel:+16138508928" itemprop="telephone">+1 (613) 850-8928</a>
+            <a class="white-link" href="tel:{{site.data.site.tel}}" itemprop="telephone">{{site.data.site.tel_display}}</a>
+          </li>
+          <li class="push-1-8">
+            <a class="white-link" href="{{site.data.site.location.map}}" itemprop="telephone">{{site.data.site.location.locality}}, {{site.data.site.location.region}}</a>
           </li>
         </ul>
       </div>
