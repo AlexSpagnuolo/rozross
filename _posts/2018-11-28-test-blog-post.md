@@ -3,12 +3,10 @@ layout: blog-post
 featuredimg: /images/uploads/roz-ross-bw.jpg
 title: Test Blog Post
 date: November 28th 2018
-introduction: This is a test blog post.
+introduction: This is a test blog post entry.
 ---
-## Hello
+Hi, welcome to this post.
 
-Welcome to this blog post!
+I'm Alex Spagnuolo, the designer and developer of this website.
 
-My name is Alex Spagnuolo, the designer and developer of this website.
-
-****
+**Bye!**
