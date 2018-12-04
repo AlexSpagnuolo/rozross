@@ -255,6 +255,11 @@ textarea {
 }
 
 .featured-blog-image {
+  border-radius: 10px 10px 0 0;
+}
+
+.featured-blog-image-wrapper {
+  overflow: hidden;
   max-height: 10rem;
 }
 
@@ -320,13 +325,6 @@ textarea {
 
 /* Media Queries start */
 
-@media only screen and (min-width: 25em) {
-
-  .-image {
-    border-radius: 10px 10px 0 0;
-  }
-}
-
 @media only screen and (min-width: 38em) {
 
   .name-input {
@@ -334,7 +332,7 @@ textarea {
   }
 
   .featured-blog-image {
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
   }
 
   .nav-button {
