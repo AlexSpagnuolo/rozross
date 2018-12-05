@@ -71,8 +71,8 @@ collections:
           - label: "Biography"
             name: "bio"
             widget: "text"
-          - label: "Quote"
-            name: "quote"
+          - label: "Quotation"
+            name: "quotation"
             widget: "object"
             fields:
               - label: "Quote"
