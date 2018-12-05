@@ -43,8 +43,8 @@ collections:
     name: "pages"
     files:
       - label: "Home page"
-        name: "site"
-        file: "_data/site.yml"
+        name: "home"
+        file: "_data/home.yml"
         fields:
           - label: "Hook"
             name: "hook"
