@@ -39,7 +39,7 @@ collections:
     name: "pages"
     files:
       - label: "Home page"
-        name: "home-page"
+        name: "homepage"
         file: "_data/site.yml"
         fields:
           - label: "Hook"
