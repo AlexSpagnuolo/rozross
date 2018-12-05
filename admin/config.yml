@@ -65,7 +65,7 @@ collections:
         name: "title"
         widget: "string"
       - label: "Date"
-        name: "date"
+        name: "postdate"
         widget: "string"
       - label: "Introduction"
         name: "introduction"
