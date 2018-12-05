@@ -62,10 +62,15 @@ collections:
         name: "about"
         file: "_data/about.yml"
         fields:
-          - label: "Title"
+          - label: "Header"
             name: "header"
             widget: "string"
-
+          - label: "Introduction"
+            name: "intro"
+            widget: "string"
+          - label: "Biography"
+            name: "bio"
+            widget: "text"
 
   - label: "Blog posts"
     name: "blog-posts"
