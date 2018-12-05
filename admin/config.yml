@@ -52,6 +52,20 @@ collections:
           - label: "Introduction"
             name: "intro"
             widget: "string"
+          - label: "Client testimonial quote"
+            name: "testimonial"
+            widget: "string"
+          - label: "Client testimonial name"
+            name: "testimonial-name"
+            widget: "string"
+      - label: "About page"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - label: "Title"
+            name: "header"
+            widget: "string"
+
 
   - label: "Blog posts"
     name: "blog-posts"
