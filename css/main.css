@@ -357,6 +357,10 @@ textarea {
     margin-top: 20rem;
   }
 
+  .embed-banner {
+    padding-top: 25%;
+  }
+
 }
 
 /* Media Queries end */
