@@ -38,7 +38,6 @@ collections:
           - label: "Copyright"
             name: copyright:
             widget: "string"
-
   - label: "Pages"
     name: "pages"
     files:
