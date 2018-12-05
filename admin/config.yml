@@ -36,8 +36,9 @@ collections:
                 name: "region"
                 widget: "string"
           - label: "Copyright"
-            name: copyright:
+            name: "copyright"
             widget: "string"
+
   - label: "Pages"
     name: "pages"
     files:
