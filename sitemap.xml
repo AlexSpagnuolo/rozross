@@ -2,18 +2,42 @@
 <urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://rozross.com</loc>
+    <loc>http://rozross.com/</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>http://rozross.com/about</loc>
+    <loc>http://rozross.com/about/</loc>
   </url>
 
   <url>
-    <loc>http://rozross.com/services</loc>
+    <loc>http://rozross.com/services/</loc>
   </url>
 
   <url>
-    <loc>http://rozross.com/blog</loc>
+    <loc>http://rozross.com/blog/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/executive-coaching/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/hundred-day-journey/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/thousand-day-journey/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/emotional-intelligence/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/spice-resiliency-program/</loc>
+  </url>
+
+  <url>
+    <loc>http://rozross.com/motivational-speaking/</loc>
   </url>
