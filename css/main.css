@@ -28,6 +28,10 @@ img,
   text-transform: uppercase;
 }
 
+.hook-text-shadow {
+  text-shadow: 1px 1px 2px #000;
+}
+
 .text-shadow {
   text-shadow: 1px 1px 5px #000;
 }
