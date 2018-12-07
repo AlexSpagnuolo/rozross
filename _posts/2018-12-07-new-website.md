@@ -4,7 +4,7 @@ title: New Website
 introduction: >-
   Hello and welcome to Roz's new website. The purpose of this blog post is to
   test the feature.
-featuredimg: /images/uploads/blog-cover.jpg
+featuredimg: /images/uploads/02-desk-plants.jpg.png
 postdate: Dec 7 2018
 ---
 # This is a header 1
@@ -17,7 +17,7 @@ _This is italic text_
 
 **This is bold text**
 
-_**This is bold italic text**_
+**_This is bold italic text_**
 
 [This is a link](aaspagnuolo.ca)
 
