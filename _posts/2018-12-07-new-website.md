@@ -2,10 +2,10 @@
 layout: blog-post
 title: New Website
 introduction: >-
-  Hello and welcome to Roz's new website. The purpose of this blog post is to
-  test the feature.
-featuredimg: /images/uploads/02-desk-plants.jpg.png
-postdate: Dec 7 2018
+  2019 is a year of significant changes for my coaching business. I am launching
+  my first website!
+featuredimg: /images/uploads/screen-shot-2015-03-02-at-10.46.02-pm.png
+postdate: 'February 3, 2019'
 ---
 # This is a header 1
 
@@ -17,7 +17,7 @@ _This is italic text_
 
 **This is bold text**
 
-**_This is bold italic text_**
+_**This is bold italic text**_
 
 [This is a link](aaspagnuolo.ca)
 
